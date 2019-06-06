@@ -1,0 +1,30 @@
+{
+  "name": "geo-explore-kvv",
+  "version": "1.0.0",
+  "description": "Explore Karlsruhe with realtime public transport data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidweisscode/geo-explore-kvv.git"
+  },
+  "keywords": [
+    "geo",
+    "api",
+    "client",
+    "server",
+    "public",
+    "transport"
+  ],
+  "author": "David Weiss",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/davidweisscode/geo-explore-kvv/issues"
+  },
+  "homepage": "https://github.com/davidweisscode/geo-explore-kvv#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
