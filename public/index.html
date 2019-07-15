@@ -18,12 +18,11 @@
     <p>Explore Karlsruhe with realtime public transport data</p>
     <button onclick="explore()">Explore</button>
     <form>
-        <input id="totaltime_input" type="range" value="30" min="5" max="120"
-            oninput="totaltime_label.value = totaltime_input.value">
-        <output id="totaltime_label">30</output>
+        <input id="totalTimeInput" type="range" value="30" min="5" max="120"
+            oninput="totalTimeLabel.value = totalTimeInput.value">
+        <output id="totalTimeLabel">30</output>
     </form>
     <div id="map"></div>
-
-    <script type="module" src="app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

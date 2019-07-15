@@ -1,6 +1,9 @@
 const express = require("express");
 const server = express();
 const port = 8000;
+require("dotenv").config();
+
+//console.log(process.env.KVV_KEY);
 
 server.use(express.static("public"));
 
