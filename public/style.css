@@ -1,3 +1,7 @@
 #map {
     height: 400px;
 }
+#exploreButton, #exploreForm {
+    display: inline-block;
+    vertical-align: middle;
+}
